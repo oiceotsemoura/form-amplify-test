@@ -1,5 +1,5 @@
-import styled from 'styled-components';
- 
+import styled from "styled-components";
+
 export const Container = styled.div`
   display: flex;
   flex-direction: column;
@@ -14,7 +14,7 @@ export const FormContainer = styled.div`
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-  width: 300px;
+  width: 500px;
 `;
 
 export const Label = styled.label`
@@ -23,7 +23,7 @@ export const Label = styled.label`
 `;
 
 export const Input = styled.input`
-  width: 100%;
+  width: 95%;
   padding: 8px;
   font-size: 16px;
   border: 1px solid #ccc;
@@ -39,4 +39,8 @@ export const Button = styled.button`
   border-radius: 4px;
   cursor: pointer;
   font-size: 16px;
+`;
+
+export const CardWrapper = styled.div`
+  margin-top: 16px;
 `;
